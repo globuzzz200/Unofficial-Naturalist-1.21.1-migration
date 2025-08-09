@@ -1,7 +1,7 @@
-# macOS
+# macOS system files
 .DS_Store
 
-# Gradle/IDE
+# Gradle and IDE
 .gradle/
 build/
 /**/build/
@@ -9,3 +9,13 @@ build/
 *.iml
 .idea/
 .vscode/
+
+# Naturalist resource folders (prevent accidental commit of All Rights Reserved assets)
+common/src/main/resources/*
+fabric/src/main/resources/*
+forge/src/main/resources/*
+
+# Keep the placeholder file if present
+!common/src/main/resources/.gitkeep
+!fabric/src/main/resources/.gitkeep
+!forge/src/main/resources/.gitkeep
